@@ -21,7 +21,7 @@ You can add the same link as many times as you want. If you no longer need the c
 
 * Python 3.14.13
 * Virtual environment venv (installation - “python -m venv venv”)
-* HTML
+* HTML (import html)
 * pyTelegramBotAPI (installation - “pip install pyTelegramBotAPI” )
 * psycopg2 (installation - “pip install psycopg2” )
 * PostgreSQL:
