@@ -17,6 +17,14 @@ You can add the same link as many times as you want. If you no longer need the c
 7. /help — the bot sends a message with useful information.
 8. /delete_all — the bot deletes all the user's links from the database.
 
+# Instructions for use:
+
+The bot does not work around the clock, but you can send the command /start, and it will respond as soon as it is launched.
+
+Link to the bot in Telegram: https://t.me/MyIsbrannoeBot
+
+If you want to install this bot on your computer, follow the instructions below.
+
 # Technology stack:
 
 * Python 3.14.13
