@@ -6,7 +6,7 @@ Imagine that you have found a website with important information and want to sav
 
 You can add the same link as many times as you want. If you no longer need the copies, instead of deleting each link individually, click "Delete duplicates." The bot will only keep the first duplicate. You can also delete all links with a single command.
 
-### Bot functions:
+## Bot functions:
 
 1. Registration and sending links: the bot registers a new user in the database and sends all the links they have added. If there are no links, it will write "It's empty for now."
 2. Adding a link: the user sends a link to the chat, and the bot adds it to the database. This function is only available after function 1 for the first time.
