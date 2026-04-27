@@ -16,3 +16,28 @@ You can add the same link as many times as you want. If you no longer need the c
 6. /start — the bot turns on and greets the user.
 7. /help — the bot sends a message with useful information.
 8. /delete_all — the bot deletes all the user's links from the database.
+
+# Technology stack:
+
+* Python 3.14.13
+* Virtual environment venv (installation - “python -m venv venv”)
+* HTML
+* pyTelegramBotAPI (installation - “pip install pyTelegramBotAPI” )
+* psycopg2 (installation - “pip install psycopg2” )
+* PostgreSQL:
+  * pgAdmin 4:
+    * TGBOT database:
+    * 3 Tables:
+      1. Chats:
+      * Columns:
+        1. chat_id
+        2. message_id
+      2. links:
+      * Columns:
+        1. id
+        2. link_text
+        3. chat_id
+      3. links_name:
+      * Columns:
+        1. links_name
+        2. links_id
