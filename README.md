@@ -27,6 +27,7 @@ You can add the same link as many times as you want. If you no longer need the c
 * PostgreSQL:
   * pgAdmin 4:
     * TGBOT database:
+    * The database structure is located in the SchemTGBOT file
     * 3 Tables:
       1. Chats:
          * Columns:
@@ -41,3 +42,20 @@ You can add the same link as many times as you want. If you no longer need the c
          * Columns:
             1. links_name
             2. links_id
+
+# Installation instructions:
+
+1. Create a Telegram bot using @BotFather.
+2. Install Python 3.
+3. Install a code editor (such as VS Code).
+4. Open the BOT_E file in the code editor.
+5. Install the venv virtual environment (run "python -m venv venv" in the terminal).
+6. Install pyTelegramBotAPI (run "pip install pyTelegramBotAPI" in the terminal).
+7. Install psycopg2 (send "pip install psycopg2" to the terminal).
+8. Insert the token received from @BotFather into the 7th line of the code instead of *** .
+9. Install PostgreSQL + pgAdmin 4.
+10. Create a new database.
+11. Right-click on the database → Query tool → Click on the open file button (folder) → open the SchemTGBOT file.
+12. Run the code in the code editor and use the bot on Telegram.
+
+If I forgot something, please contact me.  
