@@ -29,15 +29,15 @@ You can add the same link as many times as you want. If you no longer need the c
     * TGBOT database:
     * 3 Tables:
       1. Chats:
-       * Columns:
-         1. chat_id
-         2. message_id
+         * Columns:
+            1. chat_id
+            2. message_id
       2. links:
-       * Columns:
-         1. id
-         2. link_text
-         3. chat_id
+         * Columns:
+            1. id
+            2. link_text
+            3. chat_id
       3. links_name:
-       * Columns:
-         1. links_name
-         2. links_id
+         * Columns:
+            1. links_name
+            2. links_id
